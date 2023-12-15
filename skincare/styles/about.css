@@ -1,0 +1,347 @@
+@font-face {
+    font-family: "Louis-George-Cafe";
+    src: url(Louis-George-Cafe.ttf);
+}
+
+@font-face {
+    font-family: "Rubynt";
+    src: url(Rubynt-Demo.ttf);
+}
+
+@font-face {
+    font-family: "Saudagar";
+    src: url("Saudagar.ttf");
+}
+
+body{
+    margin: 0;
+    background-color: whitesmoke;
+}
+
+.header{
+    top: 0%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: whitesmoke;
+    opacity: 1;
+    width: 100%;
+    height:150px;
+    outline: 1px solid darkgrey;
+}
+
+.left-header{
+    font-size: 17px;
+    padding-left: 60px;
+    padding-top: 30px;
+    min-width: 140px;
+}
+
+.fa-1x{
+    cursor: pointer;
+}
+
+.title{ 
+    font-family: Saudagar;
+    position: absolute;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.middle-header{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+a{
+    font-family: Saudagar;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 15px;
+    white-space: nowrap;
+    color: black;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 80px;
+    font-weight: 500;
+}
+
+.right-header{
+    display: flex;
+    justify-content: space-between;
+    min-width: 140px;
+    padding-top: 30px;
+    padding-right: 40px;
+    font-size: 21px;   
+}
+
+.fa-facebook, .fa-pinterest, .fa-instagram, .fa-user, .fa-envelope{
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+
+.about-us-container{
+    display: flex;
+    justify-content: center;
+    background-color: #DDEDDB;
+    height: 800px;
+}
+
+.about-us-images{
+    margin-right: 570px;
+}
+
+.about-us-image1{
+    position: absolute;
+    margin-left: 410px;
+    margin-top: 45px;
+    width: 450px;
+}
+
+.about-us-image2{
+    width: 780px;
+    height: 784px;
+    margin-left: -550px;
+    object-fit: cover;
+    margin-left: 0px;
+}
+
+.about-us-description-container{
+    padding-top: 210px;
+    margin-left: -430px;
+    padding-right: 150px;
+}
+
+.about-us-title{
+    font-size: 60px;
+    font-family: Saudagar;
+    font-weight: 500;
+    margin: 0;
+    color: black;
+}
+
+.our-mission{
+    font-size: 18px;
+    margin: 0;
+    padding-top: 10px;
+    font-family: Louis-George-Cafe;
+}
+
+.about-us-description{
+    font-size: 18px;
+    font-family: Louis-George-Cafe;
+    width: 820px;
+    padding-top: 20px;
+    line-height: 30px;
+    
+}
+
+.read-more-button{
+    background-color: transparent;
+    border-color: black;
+    font-family: Louis-George-Cafe;
+    padding: 8px 28px;
+    cursor: pointer;
+}
+
+.read-more-button:hover{
+    background-color: black;
+    color: white;
+    transition: 0.35s;
+}
+
+.about-us-container-2{
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+    width: 100%;
+    height: 600px;
+    margin-top: -16px;
+}
+
+.about-us-left-container-2{
+    text-align: center;
+    margin-top: 230px;
+    padding-right: 200px;
+    margin-left: 100px;
+}
+
+.about-us-container-2-title{
+    font-size: 60px;
+    font-family: Louis-George-Cafe;
+    font-weight: 500;
+    color: #b4d0b1;
+}
+
+.about-us-container-2-text{
+    font-size: 17px;
+    width: 550px;
+    font-family: Louis-George-Cafe;
+    font-weight: 500;
+    line-height: 27px;
+}
+
+.inquire-button{
+    background-color: transparent;
+    border-color: #b4d0b1;
+    color: #b4d0b1;
+    border-width: 1px;
+    margin-top: 50px;
+    padding: 8px 35px;
+    font-family: Louis-George-Cafe;
+}
+
+.inquire-button:hover{
+    background-color: #b4d0b1;
+    color: white;
+    border-bottom: white;
+    transition: 0.35s;
+}
+
+.about-us-right-container-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.21);
+    width: 780px;
+    height: 931px;
+}
+
+.about-magnifique-image3{
+    object-fit: contain;
+    width: 450px;    
+}
+
+.about-us-container-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 330px;
+    height: 931px;
+    background-color: #DDEDDB;
+}
+
+.about-us-container-3-card1,.about-us-container-3-card2,.about-us-container-3-card3,.about-us-container-3-card4{
+    text-align: center;
+    background-color: whitesmoke;
+    padding-top: 120px;
+    padding-bottom: 140px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 400px;
+    height: 380px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 20px 2px lightgrey;
+}
+
+
+.about-us-container-3-card1:hover{
+    background-color: rgb(238, 238, 238);
+	transform: translateY(-17px);
+    transition: 0.5s;
+}
+
+.about-us-container-3-card2:hover{
+    background-color: rgb(238, 238, 238);
+	transform: translateY(-17px);
+    transition: 0.5s;
+}
+
+.about-us-container-3-card3:hover{
+    background-color: rgb(238, 238, 238);
+	transform: translateY(-17px);
+    transition: 0.5s;
+}
+
+.about-us-container-3-card4:hover{
+	background-color: rgb(238, 238, 238);
+	transform: translateY(-17px);
+    transition: 0.5s;
+}
+
+.about-us-container-3-icon{
+    width: 30px;
+}
+
+.clothing-icon{
+    width: 50px;
+    margin-top: -20px;
+}
+
+.about-us-container-3-title{
+    font-family: Louis-George-Cafe;
+    font-size: 40px;
+    margin-top: -30px;
+    padding-top: 60px;
+    color: #b4d0b1;
+}
+
+.about-us-container-3-text{
+    font-family: Louis-George-Cafe;
+    font-size: 16px;
+    width: 400px;
+    width: 300px;
+    margin-left: 50px;
+    line-height: 30px;
+}
+
+.Check-out-now-button{
+    font-size: 16px;
+    background-color: transparent;
+    border-color: #b4d0b1;
+    color: #b4d0b1;
+    border-width: 1px;
+    margin-top: 50px;
+    padding: 8px 35px;
+    font-family: Louis-George-Cafe;
+}
+
+.Check-out-now-button:hover{
+    background-color: #b4d0b1;
+    color: white;
+    border-bottom: white;
+    transition: 0.35s;
+}
+
+.about-us-container-4{
+    display: flex;
+    justify-content: center;
+    background-color: #b4d0b1;
+    height: 930px;
+}
+
+.join-our-newsletter-title{
+    color: white;
+    font-size: 80px;
+    font-family: Louis-George-Cafe;
+    text-align: center;
+    padding-top: 140px;
+}
+
+.join-our-newsletter-text{
+    width: 900px;
+    text-align: center;
+    color: white;
+    font-size: 21px;
+    font-family: Louis-George-Cafe;
+    line-height: 30px;
+}
+
+.enter-email{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 8px;
+    font-size: 16px;
+    margin-top: 70px;
+    margin-left: 330px;
+    font-family: Louis-George-Cafe;
+    text-align: center;
+    border: none;
+}
